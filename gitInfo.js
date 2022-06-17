@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'git is a version control system that allows you to periodically push versions of your code into a cloud storage repository. This allows you to see how you rcode changed over time and go back to a previous version of your code if necessary (assuming you were consistantly pushing).';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const githubDefinition = 'GitHub is a coud storage platform where you can store periodic versions of your code.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = 'git init primes your file to be able to work with git commands.'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+const gitClone = 'git clone copys a repo to yur machine'
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = 'git status gives you information about yur current directory'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,9 @@
 */
 
 //CODE HERE
+const gitAddDefinition = 'git add adds any changes that have been made into the Git staging area.'
+const gitAddCode = 'git add .'
+//console.log(gitAddCode)
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,8 +71,11 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
 
+//CODE HERE
+const gitCommitDefinition = 'git commit takes a snapshot of the Git staging area'
+const gitCommitCode = 'git commit -m "reasonable information about the commit" '
+console.log(gitCommitCode)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +84,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "git push sends the snapshot of the Git staging area to a repository that you presumbaly already linked to. Usually to a GitHub repository or another cloud service"
